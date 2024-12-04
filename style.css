@@ -1,0 +1,65 @@
+body {
+    margin: 0; 
+    font-family: 'Roboto', sans-serif; 
+    background-color: rgb(53, 53, 72); 
+    color: white; 
+    text-align: center;
+}
+
+.titulo {
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+.indicacion{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.colores{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.color-pulsador{
+     width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.color-pulsador:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+.botones{
+    
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 50px;
+    gap: 30px; 
+}
+
+.info-pulsador{
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif; 
+    font-size: medium;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.2s;
+    padding: 10px 50px;
+    background-color: rgba(211, 30, 112, 0.823);
+    color: white;
+
+}
+.info-pulsador:hover{
+    transform: scale(1.1);
+    
+}
